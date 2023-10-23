@@ -3,7 +3,6 @@ import sys
 
 # Flask
 from flask import Flask, redirect, url_for, request, render_template, Response, jsonify, redirect
-from gevent.pywsgi import WSGIServer
 
 # Some utilites
 import numpy as np
@@ -32,8 +31,4 @@ def predict():
 
 
 if __name__ == '__main__':
-    # Serve the app with gevent
-    host = '0.0.0.0'
-    port = 7403
-    http_server = WSGIServer((host, port), app)
-    http_server.serve_forever()
+    app.run(debug=True, host='0.0.0.0', port=7403)
