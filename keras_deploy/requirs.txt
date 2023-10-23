@@ -3,5 +3,4 @@ gevent
 h5py
 numpy
 Pillow
-tensorflow
 Werkzeug
