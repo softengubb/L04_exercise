@@ -1,5 +1,0 @@
-Flask
-h5py
-numpy
-Pillow
-Werkzeug
