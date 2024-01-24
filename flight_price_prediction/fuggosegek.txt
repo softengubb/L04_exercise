@@ -1,3 +1,0 @@
-Flask
-Flask_Cors
-pandas

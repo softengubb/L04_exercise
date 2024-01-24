@@ -1,4 +1,0 @@
-A webalkalmazás a 2222 port-ra közvetít.
-A futáshoz szükséges függőségeket a reqs.txt fájl tartalmazza.
-Az alkalmazást az example.py Python kód futtatásával indítjuk el.
-A webalkalmazás futtatható a Python 3.11-es verzióval, de akár régebbiekkel is.
