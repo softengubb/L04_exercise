@@ -8,7 +8,6 @@ trigger:
 
 
 variables:
-  vmImage: ubuntu-latest
   pythonVersion: '3.9'
 
 stages:
@@ -16,8 +15,6 @@ stages:
   displayName: Compilation stage
   jobs:
   - job: CompilationJob
-    pool:
-      vmImage: $(vmImageName)
     steps:
     - task: UsePythonVersion@0
       inputs:
